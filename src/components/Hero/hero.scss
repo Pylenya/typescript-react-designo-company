@@ -1,0 +1,27 @@
+.hero {
+  background-color: #e88069;
+  border-radius: 15px;
+  margin-bottom: 150px;
+}
+.hero__container {
+  padding: 170px 80px;
+  background-image: url(../../images/home/image-hero-phone.png),
+    url(../../images/svg/bg-pattern-hero-home.svg);
+  background-repeat: no-repeat;
+  background-position: 110% 33%, 90%;
+}
+.hero__box {
+  max-width: 475px;
+}
+
+.hero__title {
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 1;
+  color: white;
+  margin-bottom: 25px;
+}
+.hero__desc {
+  color: white;
+  margin-bottom: 25px;
+}
