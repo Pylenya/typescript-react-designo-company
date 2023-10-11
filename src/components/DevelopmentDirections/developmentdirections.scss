@@ -1,0 +1,7 @@
+.links--home {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 300px);
+  margin-bottom: 100px;
+  gap: 30px;
+}
