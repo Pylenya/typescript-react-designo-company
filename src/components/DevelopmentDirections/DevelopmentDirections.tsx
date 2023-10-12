@@ -14,30 +14,33 @@ import graphicdesignTab from "../../images/home/tablet/image-graphic-design.jpg"
 import graphicdesignMob from "../../images/home/mobile/image-graphic-design.jpg";
 
 import "./developmentdirections.scss";
+import { Wrapper } from "../Wrapper/Wrapper";
 
 export const DevelopmentDirections: React.FC = () => {
   return (
     <section className="development-directions">
-      <div className="links links--home">
-        <DevelopmentDirection
-          title="web design"
-          imgDesk={webdesignDesk}
-          imgTab={webdesignTab}
-          imgMob={webdesignMob}
-        />
-        <DevelopmentDirection
-          title="app design"
-          imgDesk={appdesignDesk}
-          imgTab={appdesignTab}
-          imgMob={appdesignMob}
-        />
-        <DevelopmentDirection
-          title="graphic design"
-          imgDesk={graphicdesignDesk}
-          imgTab={graphicdesignTab}
-          imgMob={graphicdesignMob}
-        />
-      </div>
+      <Wrapper>
+        <div className="links links--home">
+          <DevelopmentDirection
+            title="web design"
+            imgDesk={webdesignDesk}
+            imgTab={webdesignTab}
+            imgMob={webdesignMob}
+          />
+          <DevelopmentDirection
+            title="app design"
+            imgDesk={appdesignDesk}
+            imgTab={appdesignTab}
+            imgMob={appdesignMob}
+          />
+          <DevelopmentDirection
+            title="graphic design"
+            imgDesk={graphicdesignDesk}
+            imgTab={graphicdesignTab}
+            imgMob={graphicdesignMob}
+          />
+        </div>
+      </Wrapper>
     </section>
   );
 };

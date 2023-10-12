@@ -1,0 +1,26 @@
+.footer-card__box {
+  background-image: url("../../images/svg/bg-pattern-call-to-action.svg");
+  background-position: 100%;
+  background-repeat: repeat-y;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e88069;
+  border-radius: 15px;
+  padding: 70px;
+  z-index: 1;
+}
+
+.footer-card__title {
+  color: white;
+  font-size: 48px;
+  max-width: 350px;
+  margin-bottom: 15px;
+  letter-spacing: 0.05em;
+  line-height: 1.2;
+}
+.footer-card__desc {
+  color: white;
+  max-width: 450px;
+}

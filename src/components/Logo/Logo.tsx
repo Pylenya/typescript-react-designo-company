@@ -10,7 +10,7 @@ export const Logo: React.FC<LogoProps> = ({ theme }) => {
   return (
     <img
       src={theme === "light" ? logoLight : logoDark}
-      alt="designo logo - home"
+      alt="logo"
       width={202}
       height={27}
     />
