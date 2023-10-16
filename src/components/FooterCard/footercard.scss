@@ -4,6 +4,7 @@
   background-repeat: repeat-y;
   position: relative;
   display: flex;
+  gap: 20px;
   justify-content: space-between;
   align-items: center;
   background-color: #e88069;
@@ -23,4 +24,21 @@
 .footer-card__desc {
   color: white;
   max-width: 450px;
+}
+@media (max-width: 737px) {
+  .footer-card__box {
+    text-align: center;
+    flex-direction: column;
+  }
+  .footer-card__title {
+    max-width: none;
+  }
+  .footer-card__desc {
+    max-width: none;
+  }
+}
+@media (max-width: 480px) {
+  .footer-card__box {
+    padding: 20px;
+  }
 }

@@ -5,3 +5,9 @@
   margin-bottom: 100px;
   gap: 30px;
 }
+@media (max-width: 999px) {
+  .links--home {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 300px);
+  }
+}
