@@ -2,6 +2,7 @@ import React from "react";
 import "./hero.scss";
 import { Button } from "../Button/Button";
 import { Wrapper } from "../Wrapper/Wrapper";
+import { Link } from "react-router-dom";
 
 export const Hero: React.FC = () => {
   return (
@@ -17,7 +18,9 @@ export const Hero: React.FC = () => {
               fully responsive websites, app design, and engaging brand
               experiences. Find out more about our services.
             </p>
-            <Button backgroundColor="white">Learn more</Button>
+            <Link onClick={() => window.scrollTo(0, 0)} to={"/about"}>
+              <Button backgroundColor="white">Learn more</Button>
+            </Link>
           </div>
         </div>
       </Wrapper>

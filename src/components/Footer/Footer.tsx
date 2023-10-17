@@ -1,6 +1,8 @@
 import React from "react";
 import { Logo } from "../Logo/Logo";
 import { Wrapper } from "../Wrapper/Wrapper";
+import { FooterCard } from "../FooterCard/FooterCard";
+import { Link } from "react-router-dom";
 
 import facebookIMG from "../../images/svg/icon-facebook.svg";
 import youtubeIMG from "../../images/svg/icon-youtube.svg";
@@ -9,7 +11,6 @@ import pinterestIMG from "../../images/svg/icon-pinterest.svg";
 import instagramIMG from "../../images/svg/icon-instagram.svg";
 
 import "./footer.scss";
-import { FooterCard } from "../FooterCard/FooterCard";
 
 export const Footer: React.FC = () => {
   return (
@@ -24,19 +25,19 @@ export const Footer: React.FC = () => {
             <nav className="footer__nav">
               <ul className="footer__list">
                 <li className="footer__item">
-                  <a className="footer__link" href="#!">
+                  <Link className="footer__link" to="/about">
                     our company
-                  </a>
+                  </Link>
                 </li>
                 <li className="footer__item">
-                  <a className="footer__link" href="#!">
+                  <Link className="footer__link" to="/locations">
                     locations
-                  </a>
+                  </Link>
                 </li>
                 <li className="footer__item">
-                  <a className="footer__link" href="#!">
+                  <Link className="footer__link" to="/contact">
                     contact
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </nav>

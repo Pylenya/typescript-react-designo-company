@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { Logo } from "../Logo/Logo";
-import "./header.scss";
 import { Wrapper } from "../Wrapper/Wrapper";
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
+import "./header.scss";
 
 export const Header: React.FC = () => {
   const [nav, setNav] = useState(false);
@@ -23,9 +23,9 @@ export const Header: React.FC = () => {
     <header className="header">
       <Wrapper>
         <div className="header__row">
-          <a className="header__logo" href="#!">
+          <Link className="header__logo" to="/home">
             <Logo theme="dark" />
-          </a>
+          </Link>
           <button
             className="mobile__btn"
             onClick={() => {
@@ -43,38 +43,59 @@ export const Header: React.FC = () => {
           >
             <ul className="header__list-burger">
               <li className="header__item">
-                <a className="header__link" to="/home">
+                <Link
+                  onClick={() => setNav(!nav)}
+                  className="header__link"
+                  to="/home"
+                >
+                  home
+                </Link>
+              </li>
+              <li className="header__item">
+                <Link
+                  onClick={() => setNav(!nav)}
+                  className="header__link"
+                  to="/about"
+                >
                   our company
-                </a>
+                </Link>
               </li>
               <li className="header__item">
-                <a className="header__link" to="/headphones">
+                <Link
+                  onClick={() => setNav(!nav)}
+                  className="header__link"
+                  to="/locations"
+                >
                   locations
-                </a>
+                </Link>
               </li>
               <li className="header__item">
-                <a className="header__link" to="/speakers">
+                <Link
+                  onClick={() => setNav(!nav)}
+                  className="header__link"
+                  to="/contact"
+                >
                   contact
-                </a>
+                </Link>
               </li>
             </ul>
           </nav>
           <nav className="header__nav">
             <ul className="header__list">
               <li className="header__item">
-                <a className="header__link" href="#!">
+                <Link className="header__link" to="/about">
                   our company
-                </a>
+                </Link>
               </li>
               <li className="header__item">
-                <a className="header__link" href="#!">
+                <Link className="header__link" to="/locations">
                   locations
-                </a>
+                </Link>
               </li>
               <li className="header__item">
-                <a className="header__link" href="#!">
+                <Link className="header__link" to="/contact">
                   contact
-                </a>
+                </Link>
               </li>
             </ul>
           </nav>

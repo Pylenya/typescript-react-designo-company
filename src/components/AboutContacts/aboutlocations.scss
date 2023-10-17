@@ -1,0 +1,36 @@
+.about-locations__box {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 150px;
+}
+.about-locations__box {
+  .card {
+    position: relative;
+    &::before {
+      content: "";
+      position: absolute;
+      width: 202px;
+      height: 202px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: url(/src/images/svg/bg-pattern-small-circle.svg);
+      background-repeat: no-repeat;
+      z-index: -1;
+    }
+  }
+}
+
+@media (max-width: 999px) {
+  .about-locations__box {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .about-locations__box {
+    margin-bottom: 100px;
+  }
+}
+@media (max-width: 480px) {
+}
