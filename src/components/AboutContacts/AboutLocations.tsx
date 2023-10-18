@@ -9,7 +9,7 @@ import unitedKingdomIMG from "../../images/svg/illustration-united-kingdom.svg";
 
 import "./aboutlocations.scss";
 
-export const AboutContact = () => {
+export const AboutContact: React.FC = () => {
   return (
     <section className="about-locations">
       <Wrapper>
