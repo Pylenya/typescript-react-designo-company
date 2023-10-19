@@ -23,18 +23,21 @@ export const DevelopmentDirections: React.FC = () => {
         <div className="links links--home">
           <DevelopmentDirection
             title="web design"
+            slug="/web-design"
             imgDesk={webdesignDesk}
             imgTab={webdesignTab}
             imgMob={webdesignMob}
           />
           <DevelopmentDirection
             title="app design"
+            slug="/app-design"
             imgDesk={appdesignDesk}
             imgTab={appdesignTab}
             imgMob={appdesignMob}
           />
           <DevelopmentDirection
             title="graphic design"
+            slug="/graphic-design"
             imgDesk={graphicdesignDesk}
             imgTab={graphicdesignTab}
             imgMob={graphicdesignMob}

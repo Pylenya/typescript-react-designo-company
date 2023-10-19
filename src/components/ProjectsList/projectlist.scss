@@ -1,0 +1,17 @@
+.project-list__box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 25px;
+  column-gap: 25px;
+  margin-bottom: 150px;
+}
+@media (max-width: 999px) {
+  .project-list__box {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 768px) {
+  .project-list__box {
+    grid-template-columns: 1fr;
+  }
+}

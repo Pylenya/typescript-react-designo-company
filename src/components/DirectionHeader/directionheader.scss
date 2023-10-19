@@ -1,0 +1,33 @@
+.direction-header__box {
+  text-align: center;
+  background: url("../../images/svg/bg-pattern-intro-web.svg");
+  background-color: #e88069;
+  background-position: 100%;
+  border-radius: 15px;
+  margin-bottom: 150px;
+}
+
+.direction-header__title {
+  color: white;
+  font-weight: 700;
+  font-size: 48px;
+  margin-bottom: 10px;
+  padding-top: 70px;
+}
+
+.direction-header__desc {
+  max-width: 500px;
+  font-size: 18px;
+  color: white;
+  margin: 0 auto;
+  padding-bottom: 70px;
+}
+@media (max-width: 520px) {
+  .direction-header__title {
+    font-size: 28px;
+    padding-top: 25px;
+  }
+  .direction-header__desc {
+    padding-bottom: 25px;
+  }
+}

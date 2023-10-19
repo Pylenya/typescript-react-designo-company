@@ -1,11 +1,13 @@
 import React from "react";
 import "./developmentdirection.scss";
+import { Link } from "react-router-dom";
 
 interface DevelopmentDirectionProps {
   title: string;
   imgMob: string;
   imgTab: string;
   imgDesk: string;
+  slug: string;
 }
 
 export const DevelopmentDirection: React.FC<DevelopmentDirectionProps> = ({
@@ -13,9 +15,14 @@ export const DevelopmentDirection: React.FC<DevelopmentDirectionProps> = ({
   imgMob,
   imgTab,
   imgDesk,
+  slug,
 }) => {
   return (
-    <div className="link__item">
+    <Link
+      onClick={() => window.scrollTo(0, 0)}
+      className="link__item"
+      to={slug}
+    >
       <picture>
         <source media="(max-width:480px)" srcSet={imgMob} />
         <source media="(max-width:999px)" srcSet={imgTab} />
@@ -25,6 +32,6 @@ export const DevelopmentDirection: React.FC<DevelopmentDirectionProps> = ({
         <p className="link__title">{title}</p>
         <span className="link__desc">View Projects</span>
       </div>
-    </div>
+    </Link>
   );
 };

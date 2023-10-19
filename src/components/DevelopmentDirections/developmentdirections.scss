@@ -5,9 +5,19 @@
   margin-bottom: 100px;
   gap: 30px;
 }
+.links--other {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 100px;
+  gap: 30px;
+}
 @media (max-width: 999px) {
   .links--home {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, 300px);
+  }
+  .links--other {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 300px);
   }
 }
