@@ -1,8 +1,9 @@
 import React from "react";
 import { Wrapper } from "../Wrapper/Wrapper";
-import { IProjestList } from "../Pages/WebDesign";
 import { ProjectItem } from "../ProjectItem/ProjectItem";
+import { IProjestList } from "../../types";
 import "./projectlist.scss";
+
 interface ProjectsListProps {
   projectList: IProjestList[];
 }

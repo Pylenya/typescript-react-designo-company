@@ -1,4 +1,5 @@
 import React from "react";
+
 import { Header } from "../Header/Header";
 import { Footer } from "../Footer/Footer";
 import { DirectionHeader } from "../DirectionHeader/DirectionHeader";
@@ -13,8 +14,7 @@ import webdesignMob from "../../images/home/mobile/image-web-design.jpg";
 import graphicdesignDesk from "../../images/home/desktop/image-graphic-design.jpg";
 import graphicdesignTab from "../../images/home/tablet/image-graphic-design.jpg";
 import graphicdesignMob from "../../images/home/mobile/image-graphic-design.jpg";
-
-import { IProjestList } from "./WebDesign";
+import { IProjestList } from "../../types";
 
 export const AppDesign: React.FC = () => {
   const AppDesignProjestList: IProjestList[] = [

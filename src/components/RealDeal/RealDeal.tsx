@@ -1,9 +1,12 @@
 import React from "react";
-import "./realdeal.scss";
 import { Wrapper } from "../Wrapper/Wrapper";
+
 import imgDesk from "../../images/about/desktop/image-real-deal.jpg";
 import imgTab from "../../images/about/tablet/image-real-deal.jpg";
 import imgMob from "../../images/about/mobile/image-real-deal.jpg";
+
+import "./realdeal.scss";
+
 export const RealDeal: React.FC = () => {
   return (
     <section className="real-deal">

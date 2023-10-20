@@ -1,6 +1,8 @@
 import React from "react";
-import { IProjestList } from "../Pages/WebDesign";
+import { IProjestList } from "../../types";
+
 import "./projectitem.scss";
+
 export const ProjectItem: React.FC<IProjestList> = ({ title, desc, img }) => {
   return (
     <div className="project-item">

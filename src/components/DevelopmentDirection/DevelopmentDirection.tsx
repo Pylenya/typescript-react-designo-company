@@ -1,6 +1,7 @@
 import React from "react";
-import "./developmentdirection.scss";
 import { Link } from "react-router-dom";
+
+import "./developmentdirection.scss";
 
 interface DevelopmentDirectionProps {
   title: string;

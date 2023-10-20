@@ -1,11 +1,13 @@
 import React from "react";
-import "./talent.scss";
 import { Wrapper } from "../Wrapper/Wrapper";
+
 import imgDesk from "../../images/about/desktop/image-world-class-talent.jpg";
 import imgTab from "../../images/about/tablet/image-world-class-talent.jpg";
 import imgMob from "../../images/about/mobile/image-world-class-talent.jpg";
 
-export const Talent = () => {
+import "./talent.scss";
+
+export const Talent: React.FC = () => {
   return (
     <section className="talent">
       <Wrapper>

@@ -19,23 +19,39 @@ export const Footer: React.FC = () => {
       <footer className="footer">
         <Wrapper>
           <div className="footer__row">
-            <div className="footer__logo">
+            <Link
+              onClick={() => window.scrollTo(0, 0)}
+              to={"/home"}
+              className="footer__logo"
+            >
               <Logo theme="light" />
-            </div>
+            </Link>
             <nav className="footer__nav">
               <ul className="footer__list">
                 <li className="footer__item">
-                  <Link className="footer__link" to="/about">
+                  <Link
+                    onClick={() => window.scrollTo(0, 0)}
+                    className="footer__link"
+                    to="/about"
+                  >
                     our company
                   </Link>
                 </li>
                 <li className="footer__item">
-                  <Link className="footer__link" to="/locations">
+                  <Link
+                    onClick={() => window.scrollTo(0, 0)}
+                    className="footer__link"
+                    to="/locations"
+                  >
                     locations
                   </Link>
                 </li>
                 <li className="footer__item">
-                  <Link className="footer__link" to="/contact">
+                  <Link
+                    onClick={() => window.scrollTo(0, 0)}
+                    className="footer__link"
+                    to="/contact"
+                  >
                     contact
                   </Link>
                 </li>

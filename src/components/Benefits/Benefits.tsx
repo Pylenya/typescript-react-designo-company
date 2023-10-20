@@ -1,7 +1,8 @@
 import React from "react";
-import "./benefits.scss";
 import { BeneftisCards } from "../BenefitsCard/BeneftisCards";
 import { Wrapper } from "../Wrapper/Wrapper";
+
+import "./benefits.scss";
 
 export const Benefits: React.FC = () => {
   return (

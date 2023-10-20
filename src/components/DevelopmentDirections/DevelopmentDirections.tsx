@@ -1,5 +1,6 @@
 import React from "react";
 import { DevelopmentDirection } from "../DevelopmentDirection/DevelopmentDirection";
+import { Wrapper } from "../Wrapper/Wrapper";
 
 import webdesignDesk from "../../images/home/desktop/image-web-design-large.jpg";
 import webdesignTab from "../../images/home/tablet/image-web-design.jpg";
@@ -14,7 +15,6 @@ import graphicdesignTab from "../../images/home/tablet/image-graphic-design.jpg"
 import graphicdesignMob from "../../images/home/mobile/image-graphic-design.jpg";
 
 import "./developmentdirections.scss";
-import { Wrapper } from "../Wrapper/Wrapper";
 
 export const DevelopmentDirections: React.FC = () => {
   return (

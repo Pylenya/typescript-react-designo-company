@@ -1,4 +1,5 @@
 import React from "react";
+
 import { Header } from "../Header/Header";
 import { Footer } from "../Footer/Footer";
 import { DirectionHeader } from "../DirectionHeader/DirectionHeader";
@@ -14,7 +15,7 @@ import webdesignDesk from "../../images/home/desktop/image-web-design-small.jpg"
 import webdesignTab from "../../images/home/tablet/image-web-design.jpg";
 import webdesignMob from "../../images/home/mobile/image-web-design.jpg";
 
-import { IProjestList } from "./WebDesign";
+import { IProjestList } from "../../types";
 
 export const GraphicDesign: React.FC = () => {
   const GraphicDesignProjestList: IProjestList[] = [

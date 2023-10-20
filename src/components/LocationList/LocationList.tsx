@@ -1,9 +1,8 @@
 import React from "react";
 import { YMaps } from "@pbe/react-yandex-maps";
-
+import { Wrapper } from "../Wrapper/Wrapper";
 import LocationItem from "../LocationItem/LocationItem";
 
-import { Wrapper } from "../Wrapper/Wrapper";
 import "./locationlist.scss";
 
 export const LocationList: React.FC = () => {

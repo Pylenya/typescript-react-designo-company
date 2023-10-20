@@ -1,4 +1,4 @@
-.about-locations__box {
+.locations__box {
   display: flex;
   justify-content: space-between;
   gap: 15px;
@@ -6,7 +6,7 @@
   font-weight: 600;
   margin-bottom: 150px;
 }
-.about-locations__box {
+.locations__box {
   .card {
     position: relative;
     &::before {
@@ -24,13 +24,11 @@
 }
 
 @media (max-width: 999px) {
-  .about-locations__box {
+  .locations__box {
     flex-direction: column;
     gap: 30px;
   }
-  .about-locations__box {
+  .locations__box {
     margin-bottom: 100px;
   }
-}
-@media (max-width: 480px) {
 }

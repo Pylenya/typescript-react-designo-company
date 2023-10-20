@@ -14,13 +14,7 @@ import graphicdesignDesk from "../../images/home/desktop/image-graphic-design.jp
 import graphicdesignTab from "../../images/home/tablet/image-graphic-design.jpg";
 import graphicdesignMob from "../../images/home/mobile/image-graphic-design.jpg";
 
-// рефактор и перенести этот интерфейс
-
-export interface IProjestList {
-  title: string;
-  desc: string;
-  img: string;
-}
+import { IProjestList } from "../../types";
 
 export const WebDesign: React.FC = () => {
   const WebDesignProjestList: IProjestList[] = [

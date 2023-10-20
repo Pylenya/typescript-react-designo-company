@@ -1,12 +1,14 @@
 import React from "react";
 import { Button } from "../Button/Button";
-import "./footercard.scss";
 import { Wrapper } from "../Wrapper/Wrapper";
+import { Link } from "react-router-dom";
+
+import "./footercard.scss";
 
 export const FooterCard: React.FC = () => {
   return (
     <>
-      <section className="footer-card">
+      <div className="footer-card">
         <Wrapper>
           <div className="footer-card__box">
             <div className="footer-card__text">
@@ -19,11 +21,13 @@ export const FooterCard: React.FC = () => {
               </div>
             </div>
             <div className="footer-card__btn">
-              <Button backgroundColor="white">Get in touch</Button>
+              <Link onClick={() => window.scrollTo(0, 0)} to={"/contact"}>
+                <Button backgroundColor="white">Get in touch</Button>
+              </Link>
             </div>
           </div>
         </Wrapper>
-      </section>
+      </div>
     </>
   );
 };

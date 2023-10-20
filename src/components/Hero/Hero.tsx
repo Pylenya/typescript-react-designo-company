@@ -1,8 +1,9 @@
 import React from "react";
-import "./hero.scss";
 import { Button } from "../Button/Button";
 import { Wrapper } from "../Wrapper/Wrapper";
 import { Link } from "react-router-dom";
+
+import "./hero.scss";
 
 export const Hero: React.FC = () => {
   return (

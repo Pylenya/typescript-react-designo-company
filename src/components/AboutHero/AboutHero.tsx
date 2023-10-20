@@ -1,5 +1,4 @@
 import React from "react";
-
 import { Wrapper } from "../Wrapper/Wrapper";
 
 import imgDesk from "../../images/about/desktop/image-about-hero.jpg";
@@ -8,7 +7,7 @@ import imgMob from "../../images/about/mobile/image-about-hero.jpg";
 
 import "./abouthero.scss";
 
-export const AboutHero = () => {
+export const AboutHero: React.FC = () => {
   return (
     <section className="about-hero">
       <Wrapper>
