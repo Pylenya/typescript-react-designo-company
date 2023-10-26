@@ -21,7 +21,7 @@ export const WebDesign: React.FC = () => {
     {
       title: "express",
       desc: "A multi-carrier shipping website for ecommerce businesses",
-      img: "../../src/images/web-design/image-express.jpg",
+      img: "web-design/image-express.jpg",
     },
     {
       title: "transfer",
