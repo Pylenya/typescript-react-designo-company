@@ -41,7 +41,7 @@ export const WebDesign: React.FC = () => {
     {
       title: "blogr",
       desc: "Blogr is a platform for creating an online blog or publication",
-      img: "../../images/web-design/image-blogr.jpg",
+      img: "../../src/images/web-design/image-blogr.jpg",
     },
     {
       title: "camp",

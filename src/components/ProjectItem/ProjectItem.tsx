@@ -6,7 +6,7 @@ import "./projectitem.scss";
 export const ProjectItem: React.FC<IProjectItem> = ({ title, desc, img }) => {
   return (
     <div className="project-item">
-      <img className="project-item__img" src={require(img)} alt={title} />
+      <img className="project-item__img" src={img} alt={title} />
       <div className="project-item__box">
         <div className="project-item__title">
           <h2>{title}</h2>
