@@ -1,14 +1,11 @@
 import React from "react";
 import { Wrapper } from "../Wrapper/Wrapper";
 import { ProjectItem } from "../ProjectItem/ProjectItem";
-import { IProjestList } from "../../types";
+import { ProjectListProps } from "../../types";
+
 import "./projectlist.scss";
 
-interface ProjectsListProps {
-  projectList: IProjestList[];
-}
-
-export const ProjectsList: React.FC<ProjectsListProps> = ({ projectList }) => {
+export const ProjectsList: React.FC<ProjectListProps> = ({ projectList }) => {
   return (
     <section className="project-list">
       <Wrapper>

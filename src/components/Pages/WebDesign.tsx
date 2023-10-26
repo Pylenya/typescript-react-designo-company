@@ -14,10 +14,10 @@ import graphicdesignDesk from "../../images/home/desktop/image-graphic-design.jp
 import graphicdesignTab from "../../images/home/tablet/image-graphic-design.jpg";
 import graphicdesignMob from "../../images/home/mobile/image-graphic-design.jpg";
 
-import { IProjestList } from "../../types";
+import { IProjectItem } from "../../types";
 
 export const WebDesign: React.FC = () => {
-  const WebDesignProjestList: IProjestList[] = [
+  const WebDesignProjestList: IProjectItem[] = [
     {
       title: "express",
       desc: "A multi-carrier shipping website for ecommerce businesses",

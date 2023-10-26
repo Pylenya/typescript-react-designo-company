@@ -15,10 +15,10 @@ import webdesignDesk from "../../images/home/desktop/image-web-design-small.jpg"
 import webdesignTab from "../../images/home/tablet/image-web-design.jpg";
 import webdesignMob from "../../images/home/mobile/image-web-design.jpg";
 
-import { IProjestList } from "../../types";
+import { IProjectItem } from "../../types";
 
 export const GraphicDesign: React.FC = () => {
-  const GraphicDesignProjestList: IProjestList[] = [
+  const GraphicDesignProjestList: IProjectItem[] = [
     {
       title: "tim brown",
       desc: "A book cover designed for Tim Brown’s new release, ‘Change’",
