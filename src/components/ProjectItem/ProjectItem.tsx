@@ -4,10 +4,6 @@ import { IProjectItem } from "../../types";
 import "./projectitem.scss";
 
 export const ProjectItem: React.FC<IProjectItem> = ({ title, desc, img }) => {
-<<<<<<< HEAD
-=======
-  console.log(img);
->>>>>>> refs/remotes/origin/main
   return (
     <div className="project-item">
       <img
