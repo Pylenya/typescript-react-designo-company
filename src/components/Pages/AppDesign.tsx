@@ -14,10 +14,10 @@ import webdesignMob from "../../images/home/mobile/image-web-design.jpg";
 import graphicdesignDesk from "../../images/home/desktop/image-graphic-design.jpg";
 import graphicdesignTab from "../../images/home/tablet/image-graphic-design.jpg";
 import graphicdesignMob from "../../images/home/mobile/image-graphic-design.jpg";
-import { IProjestList } from "../../types";
+import { IProjectItem } from "../../types";
 
 export const AppDesign: React.FC = () => {
-  const AppDesignProjestList: IProjestList[] = [
+  const AppDesignProjestList: IProjectItem[] = [
     {
       title: "air filter",
       desc: "Solving the problem of poor indoor air quality by filtering theair",

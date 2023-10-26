@@ -1,12 +1,17 @@
 import React from "react";
-import { IProjestList } from "../../types";
+import { IProjectItem } from "../../types";
 
 import "./projectitem.scss";
 
-export const ProjectItem: React.FC<IProjestList> = ({ title, desc, img }) => {
+export const ProjectItem: React.FC<IProjectItem> = ({ title, desc, img }) => {
+  console.log(img);
   return (
     <div className="project-item">
-      <img className="project-item__img" src={require(img)} alt={title} />
+      <img
+        className="project-item__img"
+        src={require(`../../src/images/${img}`)}
+        alt={title}
+      />
       <div className="project-item__box">
         <div className="project-item__title">
           <h2>{title}</h2>
