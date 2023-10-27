@@ -21,27 +21,27 @@ export const AppDesign: React.FC = () => {
     {
       title: "air filter",
       desc: "Solving the problem of poor indoor air quality by filtering theair",
-      img: "../../src/images/app-design/image-airfilter.jpg",
+      img: "/images/app-design/image-airfilter.jpg",
     },
     {
       title: "eyecam",
       desc: "Product that lets you edit your favorite photos and videos atany time",
-      img: "../../src/images/app-design/image-eyecam.jpg",
+      img: "/images/app-design/image-eyecam.jpg",
     },
     {
       title: "faceit",
       desc: "Get to meet your favorite internet superstar with the faceit app",
-      img: "../../src/images/app-design/image-faceit.jpg",
+      img: "/images/app-design/image-faceit.jpg",
     },
     {
       title: "todo",
       desc: "A todo app that features cloud sync with light and dark mode",
-      img: "../../src/images/app-design/image-todo.jpg",
+      img: "/images/app-design/image-todo.jpg",
     },
     {
       title: "loopstudios",
       desc: "A VR experience app made for Loopstudios",
-      img: "../../src/images/app-design/image-loopstudios.jpg",
+      img: "/images/app-design/image-loopstudios.jpg",
     },
   ];
   return (

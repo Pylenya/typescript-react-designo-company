@@ -22,17 +22,17 @@ export const GraphicDesign: React.FC = () => {
     {
       title: "tim brown",
       desc: "A book cover designed for Tim Brown’s new release, ‘Change’",
-      img: "../../src/images/graphic-design/image-change.jpg",
+      img: "/images/graphic-design/image-change.jpg",
     },
     {
       title: "boxed water",
       desc: "A simple packaging concept made for Boxed Water",
-      img: "../../src/images/graphic-design/image-boxed-water.jpg",
+      img: "/images/graphic-design/image-boxed-water.jpg",
     },
     {
       title: "science!",
       desc: "A poster made in collaboration with the Federal Art Project",
-      img: "../../src/images/graphic-design/image-science.jpg",
+      img: "/images/graphic-design/image-science.jpg",
     },
   ];
   return (
