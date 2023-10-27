@@ -15,28 +15,27 @@ import graphicdesignTab from "../../images/home/tablet/image-graphic-design.jpg"
 import graphicdesignMob from "../../images/home/mobile/image-graphic-design.jpg";
 
 import { IProjectItem } from "../../types";
-
 export const WebDesign: React.FC = () => {
   const WebDesignProjestList: IProjectItem[] = [
     {
       title: "express",
       desc: "A multi-carrier shipping website for ecommerce businesses",
-      img: "../../src/images/web-design/image-express.jpg",
+      img: "../../images/web-design/image-express.jpg",
     },
     {
       title: "transfer",
       desc: "Site for low-cost money transfers and sending money withinseconds",
-      img: "../../src/images/web-design/image-transfer.jpg",
+      img: "../../../images/web-design/image-transfer.jpg",
     },
     {
       title: "photon",
       desc: "A state-of-the-art music player with high-resolution audio and DSP effects",
-      img: "../../src/images/web-design/image-photon.jpg",
+      img: "../../assets/images/web-design/image-photon.jpg",
     },
     {
       title: "builder",
       desc: "Connects users with local contractors based on their location",
-      img: "../../src/images/web-design/image-builder.jpg",
+      img: "assets/images/web-design/image-builder.jpg",
     },
     {
       title: "blogr",
