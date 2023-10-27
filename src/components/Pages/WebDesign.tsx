@@ -19,32 +19,32 @@ export const WebDesign: React.FC = () => {
     {
       title: "express",
       desc: "A multi-carrier shipping website for ecommerce businesses",
-      img: "../../../public/images/web-design/image-express.jpg",
+      img: "../images/web-design/image-express.jpg",
     },
     {
       title: "transfer",
       desc: "Site for low-cost money transfers and sending money withinseconds",
-      img: "../../../images/web-design/image-transfer.jpg",
+      img: "/images/web-design/image-transfer.jpg",
     },
     {
       title: "photon",
       desc: "A state-of-the-art music player with high-resolution audio and DSP effects",
-      img: "../../assets/images/web-design/image-photon.jpg",
+      img: "../../../images/web-design/image-photon.jpg",
     },
     {
       title: "builder",
       desc: "Connects users with local contractors based on their location",
-      img: "assets/images/web-design/image-builder.jpg",
+      img: "../../../images/web-design/image-builder.jpg",
     },
     {
       title: "blogr",
       desc: "Blogr is a platform for creating an online blog or publication",
-      img: "../../src/images/web-design/image-blogr.jpg",
+      img: "../../../images/web-design/image-blogr.jpg",
     },
     {
       title: "camp",
       desc: "Get expert training in coding, data, design, and digitalmarketing",
-      img: "../../src/images/web-design/image-camp.jpg",
+      img: "../../../images/web-design/image-camp.jpg",
     },
   ];
 
