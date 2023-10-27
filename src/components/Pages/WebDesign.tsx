@@ -13,14 +13,13 @@ import appdesignMob from "../../images/home/mobile/image-app-design.jpg";
 import graphicdesignDesk from "../../images/home/desktop/image-graphic-design.jpg";
 import graphicdesignTab from "../../images/home/tablet/image-graphic-design.jpg";
 import graphicdesignMob from "../../images/home/mobile/image-graphic-design.jpg";
-
 import { IProjectItem } from "../../types";
 export const WebDesign: React.FC = () => {
   const WebDesignProjestList: IProjectItem[] = [
     {
       title: "express",
       desc: "A multi-carrier shipping website for ecommerce businesses",
-      img: "../../images/web-design/image-express.jpg",
+      img: "../../../public/images/web-design/image-express.jpg",
     },
     {
       title: "transfer",
